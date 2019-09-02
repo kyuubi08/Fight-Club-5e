@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<compendium version="5">
+
+  <class>
+    <name>Artificer</name>
+    <hd>8</hd>
+    <proficiency>Constitution, Intelligence, Arcana, History, Investigation, Medicine, Nature, Perception,Sleight	of Hand</proficiency>
+    <spellAbility>Intelligence</spellAbility>
+    <numSkills>2</numSkills>
+
+    <autolevel level="1">
+			<feature optional="YES">
+        <name>Starting Artificer</name>
+        <text>As	an	artificer,	you	gain the	following	class	features.</text>
+        <text>Armor: Light	armor,	medium	armor,	shields</text>
+        <text>Weapons: Simple	weapons,	hand	crossbows, heavy	crossbows</text>
+        <text>Tools: Thieves’	tools,	tinker’s	tools,	one	type	of	artisan’s tools of	your	choice</text>
+        <text>Equipment</text>
+        <text>You	start	with	the	following	equipment,	in	addition	to	the	equipment	granted	by	your	background:</text>
+        <text>any	two	simple	weapons</text>
+        <text>a light	crossbow	and	20	bolts</text>
+        <text>(a) studded	leather	armor	or (b) scale	mail</text>
+        <text>thieves’ tools	and	a	dungeoneer’s	pack</text>
+        <text>If	you	forgo	this starting	equipment,	as	well	as	the	items	offered	by	your	background, you	start	with	5d4	× 10	gp	to	buy	your	equipment. c
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+			<slots>2, 2</slots>
+    </autolevel>
+    <autolevel level="1">
+      <feature>
+        <name>Magical	Tinkering</name>
+        <text>At	1st	level,	you	learn	how	to	invest	a	spark	of	magic	in	objects	that	would	otherwise	be mundane.	To	use	this	ability,	you	must	have	thieves’	tools,	tinker’s	tools,	or	other	artisan’s	tools	in	hand.	You	then	touch	a	Tiny	nonmagical	object	as	an	action	and	give	it	one	of	the	following	magical	properties	of	your	choice:</text>
+        <text>The	object	sheds	bright	light	in	a	5-foot	radius	and	dim	light	for	an	additional	5	feet.</text>
+        <text>Whenever	tapped	by	a	creature,	the	object	emits	a	recorded	message	that	can	be	heard	up	to	10	feet	away.	You	utter	the	message	when	you	bestow	this	property	on	the	object,	and	the	recording	can	be	no	more	than	6	seconds	long.</text>
+        <text>The	object	continuously	emits	your	choice	of	an	odor	or	a	nonverbal	sound	(wind,	waves,	chirping,	or	the	like).	The	chosen	phenomenon	is	perceivable	up	to	10	feet	away.</text>
+        <text>A	static	visual	effect	appears	on	one	of	the	object’s	surfaces.	This	effect	can	be	a	picture,	up	to	25	words	of	text,	lines	and	shapes,	or	a	mixture	of	these	elements,	as	you	like.</text>
+        <text>The	chosen	property	lasts	indefinitely.	As	an	action,	you	can	touch	the	object	and	end	the	property	early. You	can	give	the	magic	of	this	feature	to	multiple	objects,	touching	one	object	each	time	you	use	the	feature,	and	a	single	object	can	bear only	one	of	the	properties	at	a	time.	The	maximum	number	of	objects	you	can	affect	with	the	feature	at	one	time	is	equal	to	your	Intelligence	modifier	(minimum	of	one	object). If	you	try	to	exceed	your	maximum,	the	oldest property immediately	ends,	and	then	the	new	property applies.</text>
+      </feature>
+    </autolevel>
+    <autolevel level="1">
+      <feature>
+        <name>Spellcasting</name>
+        <text>You	have	studied	the	workings	of	magic,	how	to channel	it	through objects,	and	how	to	awaken	it within them.	As	a	result,	you	have	gained a limited	ability	to	cast	spells. To	observers,	you	don’t	appear	to	be	casting	spells	in	a	conventional	way;	you	look	as	if	you’re producing	wonders	through various	items.</text>
+        <text>Tools Required
+        <text>You	produce	your artificer	spell	effects	through	your	tools.	You	must	have a	spellcasting	focus — specifically thieves’ tools	or	some	kind	of artisan’s	tool—in	hand	when	you	cast	any	spell	with	this	Spellcasting	feature.	You	must be	proficient	with	the	tool	to	use	it	in	this	way.	See	chapter	5,	“Equipment,”	in	the	Player’s	Handbook for	descriptions	of	these	tools. After you	gain	the	Infuse	Item	feature	at	2nd	level,	you	can also use	any	item	bearing	one	of	your	infusions	as	a spellcasting	focus.
+        <text>Cantrips
+        <text>At	1st	level,	you	know	two	cantrips	of	your choice	from	the	artificer	spell	list	below. At higher	levels,	you	learn	additional	artificer	cantrips	of	your	choice,	as	shown	in	the	Cantrips Known	column	of	the	Artificer	table. When	you	gain	a	level	in	this	class, you	can	replace one	of	the	artificer	cantrips	you	know	with	another	cantrip	from	the	artificer	spell	list.</text>
+        <text>Preparing	and	Casting	Spells
+        <text>The	Artificer table	shows	how	many	spell	slots	you	have	to	cast	your	artificer spells.	To cast	one	of	your	artificer spells	of	1st	level	or	higher,	you	must	expend	a	slot	of	the	spell’s	level	or	higher.	You	regain	all	expended	spell	slots	when	you	finish	a	long	rest.
+        <text>You	prepare	the	list	of	artificer spells	that	are	available	for	you	to	cast,	choosing	from	the	artificer spell	list.	When	you	do	so,	choose	a	number	of	artificer spells	equal	to	your	Intelligence modifier	+	half	your	artificer level, rounded	down	(minimum	of	one	spell). The	spells	must	be	of	a	level	for	which	you	have	spell	slots.
+        <text>For	example,	if	you	are	a	5th-level	artificer, you	have	four	1st-level	and	two	2nd-level	spell	slots.	With	an	Intelligence	of	14,	your	list	of	prepared	spells	can	include	four	spells	of	1st	or 2nd	level,	in	any	combination.	If	you	prepare	the	1st-level	spell	cure	wounds,	you	can	cast	it	using	a	1st-level	or	a	2nd-level	slot.	Casting	the	spell	doesn’t	remove	it	from	your	list	of	prepared	spells.
+        <text>You	can	change	your	list	of	prepared	spells	when	you	finish	a	long	rest.	Preparing	a	new	list	of	artificer spells	requires	time spent	in	tinkering	with	your	spellcasting	focuses:	at	least	1	minute	per	spell	level	for	each	spell	on	your	list.</text>
+        <text>Spellcasting	Ability
+        <text>Intelligence	is	your	spellcasting	ability	for	your artificer	spells;	your	understanding	of	the	theory behind	magic	allows	you	to	wield	these	spells	with	superior	skill.	You	use	your	Intelligence	whenever	an	artificer	spell	refers	to	your	spellcasting	ability.	In	addition,	you	use	your	Intelligence	modifier	when	setting	the	saving	throw	DC	for	an	artificer	spell	you	cast	and	when	making	an	attack	roll	with	one.
+        <text>Spell save DC = 8 + your proficiency bonus + your Intelligence modifier
+        <text>Spell attack modifier = your proficiency bonus + your Intelligence modifier
+        <text>Ritual	Casting
+        <text>You	can	cast	an	artificer spell	as	a	ritual	if	that	spell	has	the	ritual	tag and	you	have	the	spell	prepared.
+      </feature>
+    </autolevel>
+</compendium>
