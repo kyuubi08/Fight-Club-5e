@@ -2326,6 +2326,7 @@
 		<autolevel level="20">
 			<slots>5, 4, 3, 3, 3, 3, 2, 2, 1, 1</slots>
 		</autolevel>
+	</class>
 
 	<class>
 
@@ -8400,7 +8401,7 @@
 				<text>Source: Player's Handbook, p. 110</text>
 			</feature>
 		</autolevel>
-		autolevel level="14">
+		<autolevel level="14">
 			<feature optional="YES">
 				<name>Master of Hexes (Hexblade)</name>
 				<text>Starting at 14th level, you can spread your Hexblade&#8217;s Curse from a slain creature to another creature. When the creature cursed by your Hexblade&#8217;s Curse dies, you can apply the curse to a different creature you can see within 30 feet of you, provided you aren&#8217;t incapacitated. When you apply the curse in this way, you don&#8217;t regain hit points from the death of the previously cursed creature</text>
@@ -8475,7 +8476,7 @@
 		<autolevel level="20">
 			<slots>4, 0, 0, 0, 0, 4</slots>
 		</autolevel>
-		autolevel level="20">
+		<autolevel level="20">
 			<feature>
 				<name>Eldritch Master</name>
 				<text>At 20th level, you can draw on your inner reserve of mystical power while entreating your patron to regain expended spell slots. You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature. Once you regain spell slots with this feature, you must finish a long rest before you can do so again.</text>
@@ -8528,7 +8529,7 @@
 				<text>&#8226; none</text>
 				<text> </text>
 				<text>Source: Player's Handbook, p. 163</text>
-				armor>none</armor><weapons>daggers, darts, slings, quarterstaffs, light crossbows</weapons><tools>none</tools><wealth>4d4x10</wealth>
+				<armor>none</armor><weapons>daggers, darts, slings, quarterstaffs, light crossbows</weapons><tools>none</tools><wealth>4d4x10</wealth>
 			</feature>
 		</autolevel>
 		<autolevel level="1">
